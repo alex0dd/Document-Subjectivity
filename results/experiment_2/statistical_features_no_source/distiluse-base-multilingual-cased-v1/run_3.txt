@@ -1,0 +1,41 @@
+Results for model svm
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.70      0.64        10
+         1.0       0.82      0.74      0.78        19
+
+    accuracy                           0.72        29
+   macro avg       0.70      0.72      0.71        29
+weighted avg       0.74      0.72      0.73        29
+
+Results for model logistic
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.90      0.75        10
+         1.0       0.93      0.74      0.82        19
+
+    accuracy                           0.79        29
+   macro avg       0.79      0.82      0.79        29
+weighted avg       0.83      0.79      0.80        29
+
+Results for model random-forest
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.10      0.17        10
+         1.0       0.67      0.95      0.78        19
+
+    accuracy                           0.66        29
+   macro avg       0.58      0.52      0.47        29
+weighted avg       0.61      0.66      0.57        29
+
+Results for model decision-tree
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.80      0.76        10
+         1.0       0.89      0.84      0.86        19
+
+    accuracy                           0.83        29
+   macro avg       0.81      0.82      0.81        29
+weighted avg       0.83      0.83      0.83        29
+
+1

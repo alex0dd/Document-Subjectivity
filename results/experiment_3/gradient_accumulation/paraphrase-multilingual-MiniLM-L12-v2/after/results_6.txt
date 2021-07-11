@@ -1,0 +1,43 @@
+2021-07-11 12:14:19.348414: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+document_subjectivity_experiment_3.py:135: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Results for model svm
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.40      0.53        10
+         1.0       0.75      0.95      0.84        19
+
+    accuracy                           0.76        29
+   macro avg       0.78      0.67      0.69        29
+weighted avg       0.77      0.76      0.73        29
+
+Results for model logistic
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.40      0.47        10
+         1.0       0.73      0.84      0.78        19
+
+    accuracy                           0.69        29
+   macro avg       0.65      0.62      0.63        29
+weighted avg       0.67      0.69      0.67        29
+
+Results for model random-forest
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.40      0.50        10
+         1.0       0.74      0.89      0.81        19
+
+    accuracy                           0.72        29
+   macro avg       0.70      0.65      0.65        29
+weighted avg       0.71      0.72      0.70        29
+
+Results for model decision-tree
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.20      0.31        10
+         1.0       0.69      0.95      0.80        19
+
+    accuracy                           0.69        29
+   macro avg       0.68      0.57      0.55        29
+weighted avg       0.68      0.69      0.63        29
+

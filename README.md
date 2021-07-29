@@ -9,3 +9,7 @@ Document subjectivity classification using a small Italian newspapers articles d
 In order to deal with small data limitation, [sBERT](https://sbert.net/), a library containing pretrained, multi-language sentence embedding models can be employed. 
 
 Using these pretrained models, one can easily produce meaningful representations for individual sentences, which in their turn can be used as features for simpler classical machine learning models to predict the document class.
+
+## Additional info
+
+This repository includes notebooks for three experiments described in the [report file](media/project_report.pdf).
